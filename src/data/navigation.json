@@ -14,12 +14,6 @@
       "highlight": true
     },
     {
-      "id": "satilik-arsalar",
-      "label": "Satılık Arsalar",
-      "href": "/satilik-arsalar",
-      "icon": "landscape"
-    },
-    {
       "id": "nasil-calisir",
       "label": "Nasıl Çalışır?",
       "href": "/nasil-calisir",
@@ -46,23 +40,58 @@
   ],
   "footerNav": {
     "quickLinks": [
-      { "label": "Ana Sayfa", "href": "/" },
-      { "label": "Arsa Sat", "href": "/arsa-sat" },
-      { "label": "Satılık Arsalar", "href": "/satilik-arsalar" },
-      { "label": "Nasıl Çalışır?", "href": "/nasil-calisir" },
-      { "label": "Hakkımızda", "href": "/hakkimizda" },
-      { "label": "Blog", "href": "/blog" }
+      {
+        "label": "Ana Sayfa",
+        "href": "/"
+      },
+      {
+        "label": "Arsa Sat",
+        "href": "/arsa-sat"
+      },
+      {
+        "label": "Nasıl Çalışır?",
+        "href": "/nasil-calisir"
+      },
+      {
+        "label": "Hakkımızda",
+        "href": "/hakkimizda"
+      },
+      {
+        "label": "Blog",
+        "href": "/blog"
+      }
     ],
     "legal": [
-      { "label": "KVKK Aydınlatma Metni", "href": "/kvkk" },
-      { "label": "Gizlilik Politikası", "href": "/gizlilik-politikasi" },
-      { "label": "Çerez Politikası", "href": "/cerez-politikasi" },
-      { "label": "Kullanım Koşulları", "href": "/kullanim-kosullari" }
+      {
+        "label": "KVKK Aydınlatma Metni",
+        "href": "/kvkk"
+      },
+      {
+        "label": "Gizlilik Politikası",
+        "href": "/gizlilik-politikasi"
+      },
+      {
+        "label": "Çerez Politikası",
+        "href": "/cerez-politikasi"
+      },
+      {
+        "label": "Kullanım Koşulları",
+        "href": "/kullanim-kosullari"
+      }
     ],
     "support": [
-      { "label": "Sıkça Sorulan Sorular", "href": "/sss" },
-      { "label": "İletişim", "href": "/iletisim" },
-      { "label": "Yardım Merkezi", "href": "/yardim" }
+      {
+        "label": "Sıkça Sorulan Sorular",
+        "href": "/sss"
+      },
+      {
+        "label": "İletişim",
+        "href": "/iletisim"
+      },
+      {
+        "label": "Yardım Merkezi",
+        "href": "/yardim"
+      }
     ]
   },
   "ctaButton": {

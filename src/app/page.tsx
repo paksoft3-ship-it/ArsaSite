@@ -10,7 +10,7 @@ export default function HomePage() {
   return (
     <>
       <HeroSection />
-      <FeaturedListings />
+      {/* <FeaturedListings /> */}
       <WhyUsSection />
       <ProcessSection />
       <TestimonialsSection />
