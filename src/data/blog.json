@@ -1,0 +1,241 @@
+{
+  "categories": [
+    {
+      "id": "arsa-satis-rehberi",
+      "name": "Arsa Satış Rehberi",
+      "slug": "arsa-satis-rehberi",
+      "description": "Arsanızı satarken bilmeniz gereken her şey",
+      "icon": "sell",
+      "color": "emerald"
+    },
+    {
+      "id": "yatirim-tavsiyeleri",
+      "name": "Yatırım Tavsiyeleri",
+      "slug": "yatirim-tavsiyeleri",
+      "description": "Arsa yatırımı için uzman önerileri",
+      "icon": "trending_up",
+      "color": "blue"
+    },
+    {
+      "id": "hukuki-bilgiler",
+      "name": "Hukuki Bilgiler",
+      "slug": "hukuki-bilgiler",
+      "description": "Tapu, imar ve yasal süreçler hakkında",
+      "icon": "gavel",
+      "color": "purple"
+    },
+    {
+      "id": "imar-haberleri",
+      "name": "İmar Haberleri",
+      "slug": "imar-haberleri",
+      "description": "Güncel imar değişiklikleri ve haberler",
+      "icon": "newspaper",
+      "color": "amber"
+    },
+    {
+      "id": "bolge-analizleri",
+      "name": "Bölge Analizleri",
+      "slug": "bolge-analizleri",
+      "description": "Türkiye geneli bölge ve şehir analizleri",
+      "icon": "map",
+      "color": "rose"
+    },
+    {
+      "id": "piyasa-degerlendirme",
+      "name": "Piyasa Değerlendirme",
+      "slug": "piyasa-degerlendirme",
+      "description": "Arsa piyasası analizleri ve trendler",
+      "icon": "analytics",
+      "color": "cyan"
+    },
+    {
+      "id": "vergi-ve-harçlar",
+      "name": "Vergi ve Harçlar",
+      "slug": "vergi-ve-harclar",
+      "description": "Arsa satışında vergi ve harç bilgileri",
+      "icon": "receipt_long",
+      "color": "orange"
+    },
+    {
+      "id": "miras-ve-veraset",
+      "name": "Miras ve Veraset",
+      "slug": "miras-ve-veraset",
+      "description": "Miras kalan arsa satışı rehberi",
+      "icon": "family_restroom",
+      "color": "indigo"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "slug": "arsa-satarken-dikkat-edilmesi-gerekenler",
+      "title": "Arsa Satarken Dikkat Edilmesi Gereken 10 Önemli Nokta",
+      "excerpt": "Arsanızı satmadan önce mutlaka bilmeniz gereken kritik noktaları bu rehberde derledik. Doğru fiyatlandırmadan tapu işlemlerine kadar her şey.",
+      "content": "Arsa satışı, doğru yapıldığında karlı bir işlem olabilir. Ancak dikkat edilmesi gereken birçok önemli nokta vardır...",
+      "category": "arsa-satis-rehberi",
+      "author": {
+        "name": "Ahmet Yıldırım",
+        "title": "Gayrimenkul Uzmanı",
+        "avatar": "/images/authors/ahmet.jpg"
+      },
+      "image": "/images/blog/arsa-satis-rehberi.jpg",
+      "readTime": 8,
+      "publishedAt": "2024-03-01",
+      "updatedAt": "2024-03-05",
+      "tags": ["arsa satış", "tapu", "değerleme", "rehber"],
+      "isFeatured": true,
+      "views": 1250
+    },
+    {
+      "id": "2",
+      "slug": "2024-arsa-yatirim-trendleri",
+      "title": "2024 Yılında Arsa Yatırımı: Hangi Bölgeler Öne Çıkıyor?",
+      "excerpt": "2024 yılında değer kazanması beklenen bölgeler ve yatırım fırsatları hakkında detaylı analiz.",
+      "content": "Gayrimenkul yatırımında arsa her zaman güvenli liman olmuştur...",
+      "category": "yatirim-tavsiyeleri",
+      "author": {
+        "name": "Elif Kaya",
+        "title": "Yatırım Danışmanı",
+        "avatar": "/images/authors/elif.jpg"
+      },
+      "image": "/images/blog/yatirim-trendleri.jpg",
+      "readTime": 12,
+      "publishedAt": "2024-02-28",
+      "updatedAt": "2024-02-28",
+      "tags": ["yatırım", "2024", "bölge analizi", "trend"],
+      "isFeatured": true,
+      "views": 980
+    },
+    {
+      "id": "3",
+      "slug": "hisseli-tapu-nedir-nasil-satilir",
+      "title": "Hisseli Tapu Nedir? Hisseli Arsa Nasıl Satılır?",
+      "excerpt": "Hisseli tapu sahiplerinin bilmesi gereken tüm yasal süreçler ve satış yöntemleri.",
+      "content": "Hisseli tapu, bir gayrimenkulün birden fazla kişi tarafından paylaşıldığı durumlarda ortaya çıkar...",
+      "category": "hukuki-bilgiler",
+      "author": {
+        "name": "Av. Mehmet Demir",
+        "title": "Gayrimenkul Avukatı",
+        "avatar": "/images/authors/mehmet.jpg"
+      },
+      "image": "/images/blog/hisseli-tapu.jpg",
+      "readTime": 10,
+      "publishedAt": "2024-02-25",
+      "updatedAt": "2024-02-25",
+      "tags": ["hisseli tapu", "hukuk", "satış", "miras"],
+      "isFeatured": false,
+      "views": 2100
+    },
+    {
+      "id": "4",
+      "slug": "istanbul-yeni-imar-plani-degisiklikleri",
+      "title": "İstanbul'da Yeni İmar Planı Değişiklikleri: 2024 Güncellemesi",
+      "excerpt": "İstanbul'un çeşitli ilçelerinde yapılan imar planı değişiklikleri ve bunların arsa değerlerine etkisi.",
+      "content": "İstanbul Büyükşehir Belediyesi'nin son dönemde yaptığı imar planı değişiklikleri...",
+      "category": "imar-haberleri",
+      "author": {
+        "name": "Ayşe Çelik",
+        "title": "Şehir Plancısı",
+        "avatar": "/images/authors/ayse.jpg"
+      },
+      "image": "/images/blog/istanbul-imar.jpg",
+      "readTime": 7,
+      "publishedAt": "2024-02-20",
+      "updatedAt": "2024-02-22",
+      "tags": ["istanbul", "imar", "plan değişikliği", "2024"],
+      "isFeatured": false,
+      "views": 1560
+    },
+    {
+      "id": "5",
+      "slug": "silivri-arsa-yatirim-analizi",
+      "title": "Silivri Arsa Yatırım Analizi: Fırsatlar ve Riskler",
+      "excerpt": "İstanbul'un yükselen yıldızı Silivri'de arsa yatırımı yapacaklar için kapsamlı bölge analizi.",
+      "content": "Silivri, son yıllarda İstanbul'un en çok değer kazanan ilçelerinden biri oldu...",
+      "category": "bolge-analizleri",
+      "author": {
+        "name": "Ahmet Yıldırım",
+        "title": "Gayrimenkul Uzmanı",
+        "avatar": "/images/authors/ahmet.jpg"
+      },
+      "image": "/images/blog/silivri-analiz.jpg",
+      "readTime": 15,
+      "publishedAt": "2024-02-15",
+      "updatedAt": "2024-02-18",
+      "tags": ["silivri", "istanbul", "yatırım", "bölge analizi"],
+      "isFeatured": true,
+      "views": 890
+    },
+    {
+      "id": "6",
+      "slug": "arsa-satisinda-vergi-rehberi",
+      "title": "Arsa Satışında Ödenmesi Gereken Vergiler: 2024 Rehberi",
+      "excerpt": "Arsa satışında gelir vergisi, tapu harcı ve diğer mali yükümlülükler hakkında güncel bilgiler.",
+      "content": "Arsa satışı yaparken ödemeniz gereken vergiler ve harçlar konusunda bilgi sahibi olmak önemlidir...",
+      "category": "vergi-ve-harçlar",
+      "author": {
+        "name": "YMM Fatma Özkan",
+        "title": "Mali Müşavir",
+        "avatar": "/images/authors/fatma.jpg"
+      },
+      "image": "/images/blog/vergi-rehberi.jpg",
+      "readTime": 9,
+      "publishedAt": "2024-02-10",
+      "updatedAt": "2024-02-10",
+      "tags": ["vergi", "harç", "tapu", "gelir vergisi"],
+      "isFeatured": false,
+      "views": 3200
+    },
+    {
+      "id": "7",
+      "slug": "miras-kalan-arsa-nasil-satilir",
+      "title": "Miras Kalan Arsa Nasıl Satılır? Adım Adım Rehber",
+      "excerpt": "Miras yoluyla edindiğiniz arsayı satmak için gerekli belgeler ve izlenmesi gereken süreç.",
+      "content": "Miras kalan arsayı satmak, standart arsa satışından farklı prosedürler gerektirir...",
+      "category": "miras-ve-veraset",
+      "author": {
+        "name": "Av. Mehmet Demir",
+        "title": "Gayrimenkul Avukatı",
+        "avatar": "/images/authors/mehmet.jpg"
+      },
+      "image": "/images/blog/miras-arsa.jpg",
+      "readTime": 11,
+      "publishedAt": "2024-02-05",
+      "updatedAt": "2024-02-08",
+      "tags": ["miras", "veraset", "intikal", "satış"],
+      "isFeatured": false,
+      "views": 1800
+    },
+    {
+      "id": "8",
+      "slug": "arsa-degerleme-nasil-yapilir",
+      "title": "Arsa Değerleme Nasıl Yapılır? Değeri Etkileyen Faktörler",
+      "excerpt": "Arsanızın gerçek değerini belirleyen faktörler ve profesyonel değerleme yöntemleri.",
+      "content": "Doğru fiyatlandırma, başarılı bir arsa satışının temel taşıdır...",
+      "category": "piyasa-degerlendirme",
+      "author": {
+        "name": "Elif Kaya",
+        "title": "Yatırım Danışmanı",
+        "avatar": "/images/authors/elif.jpg"
+      },
+      "image": "/images/blog/degerleme.jpg",
+      "readTime": 8,
+      "publishedAt": "2024-01-30",
+      "updatedAt": "2024-02-01",
+      "tags": ["değerleme", "fiyatlandırma", "piyasa", "analiz"],
+      "isFeatured": false,
+      "views": 1450
+    }
+  ],
+  "sidebar": {
+    "popularPosts": ["3", "6", "1", "5"],
+    "newsletter": {
+      "title": "Bültenimize Abone Olun",
+      "description": "Arsa piyasası hakkında güncel bilgiler ve fırsatlar için.",
+      "buttonText": "Abone Ol"
+    }
+  },
+  "pagination": {
+    "postsPerPage": 6
+  }
+}

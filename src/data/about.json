@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "title": "Hakkımızda",
+    "description": "Türkiye'nin en güvenilir arsa alım satım platformu olarak, sizlere şeffaf, hızlı ve güvenli hizmet sunuyoruz."
+  },
+  "story": {
+    "title": "Hikayemiz",
+    "content": [
+      "ArsaAl, 2020 yılında gayrimenkul sektöründe uzun yıllar deneyim kazanmış profesyoneller tarafından İstanbul'da kuruldu. Amacımız, arsa satış sürecini herkes için basit, şeffaf ve güvenli hale getirmekti.",
+      "Sektördeki karmaşık süreçleri, uzun bekleme sürelerini ve belirsizlikleri ortadan kaldırarak, arsa sahiplerine hak ettikleri değeri en kısa sürede sunmayı hedefledik.",
+      "Bugün, Türkiye'nin 81 ilinde hizmet veren, binlerce mutlu müşteriyle çalışan güvenilir bir platform haline geldik."
+    ],
+    "image": "/images/about/office.jpg"
+  },
+  "mission": {
+    "title": "Misyonumuz",
+    "description": "Arsa sahiplerine şeffaf, hızlı ve güvenilir bir satış deneyimi sunarak gayrimenkul sektörüne yeni bir standart getirmek.",
+    "icon": "flag"
+  },
+  "vision": {
+    "title": "Vizyonumuz",
+    "description": "Türkiye'nin en büyük ve en güvenilir arsa alım satım platformu olmak, teknoloji ve insan odaklı hizmet anlayışıyla sektöre öncülük etmek.",
+    "icon": "visibility"
+  },
+  "values": {
+    "title": "Değerlerimiz",
+    "items": [
+      {
+        "icon": "verified",
+        "title": "Güvenilirlik",
+        "description": "Her işlemde şeffaflık ve dürüstlük ilkesiyle hareket ediyoruz."
+      },
+      {
+        "icon": "speed",
+        "title": "Hız",
+        "description": "Zamanın değerini biliyoruz, süreçlerimizi en verimli şekilde yönetiyoruz."
+      },
+      {
+        "icon": "handshake",
+        "title": "Müşteri Odaklılık",
+        "description": "Müşteri memnuniyeti bizim için her şeyin önünde gelir."
+      },
+      {
+        "icon": "workspace_premium",
+        "title": "Profesyonellik",
+        "description": "Alanında uzman ekibimizle en yüksek standartlarda hizmet sunuyoruz."
+      }
+    ]
+  },
+  "stats": [
+    { "value": "500+", "label": "Mutlu Müşteri" },
+    { "value": "1000+", "label": "Değerlendirilen Arsa" },
+    { "value": "81", "label": "İl Kapsamı" },
+    { "value": "24", "label": "Saatte Teklif" }
+  ],
+  "team": {
+    "title": "Ekibimiz",
+    "description": "Deneyimli ve uzman kadromuzla yanınızdayız.",
+    "members": [
+      {
+        "name": "Ahmet Yıldırım",
+        "title": "Kurucu & CEO",
+        "image": "/images/team/ahmet.jpg",
+        "linkedin": "#"
+      },
+      {
+        "name": "Elif Kaya",
+        "title": "Operasyon Müdürü",
+        "image": "/images/team/elif.jpg",
+        "linkedin": "#"
+      },
+      {
+        "name": "Mehmet Demir",
+        "title": "Hukuk Danışmanı",
+        "image": "/images/team/mehmet.jpg",
+        "linkedin": "#"
+      },
+      {
+        "name": "Zeynep Aksoy",
+        "title": "Müşteri İlişkileri",
+        "image": "/images/team/zeynep.jpg",
+        "linkedin": "#"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bizimle Çalışmak İster Misiniz?",
+    "description": "Arsanızı değerlendirmek veya sorularınızı sormak için hemen iletişime geçin.",
+    "buttons": {
+      "primary": { "label": "Teklif Al", "href": "/arsa-sat" },
+      "secondary": { "label": "İletişim", "href": "/iletisim" }
+    }
+  }
+}

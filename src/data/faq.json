@@ -1,0 +1,93 @@
+{
+  "pageTitle": "Sıkça Sorulan Sorular",
+  "pageDescription": "Arazinizi satma süreci, ödemeler, yasal prosedürler ve tapu işlemleri hakkında merak ettiğiniz tüm detayları sizin için derledik.",
+  "searchPlaceholder": "Sorunuzu arayın... (Örn: Ödeme süreci, Tapu masrafları)",
+  "categories": [
+    { "id": "all", "label": "Tümü", "icon": "apps" },
+    { "id": "satis-sureci", "label": "Satış Süreci", "icon": "sell" },
+    { "id": "odemeler", "label": "Ödemeler", "icon": "payments" },
+    { "id": "yasal-islemler", "label": "Yasal İşlemler", "icon": "gavel" }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "category": "satis-sureci",
+      "question": "Süreç nasıl işliyor?",
+      "answer": "Sürecimiz çok basittir. Öncelikle sitemiz üzerinden form doldurarak veya bizi arayarak araziniz hakkında bilgi verirsiniz. Uzman ekibimiz 24 saat içinde bir değerleme yapar ve size nakit teklif sunar. Teklifi kabul etmeniz durumunda tapu işlemleri başlatılır ve satış günü ödemeniz nakit olarak veya banka yoluyla yapılır."
+    },
+    {
+      "id": "2",
+      "category": "odemeler",
+      "question": "Ödemeyi ne zaman ve nasıl alırım?",
+      "answer": "Ödemeniz, tapu devri işlemi sırasında yapılır. Tapu müdürlüğünde satış işlemi tamamlanır tamamlanmaz, banka havalesi veya nakit olarak ödemenizi alırsınız. İsterseniz noter huzurunda da işlem yapılabilir."
+    },
+    {
+      "id": "3",
+      "category": "yasal-islemler",
+      "question": "Hangi belgeler gerekli?",
+      "answer": "Satış için gerekli belgeler: Tapu senedi aslı veya fotokopisi, nüfus cüzdanı, 2 adet vesikalık fotoğraf, belediyeden alınacak emlak vergisi borcu yoktur yazısı. Hisseli tapularda tüm hissedarların onayı gerekebilir."
+    },
+    {
+      "id": "4",
+      "category": "satis-sureci",
+      "question": "Hisseli tapu satışı yapıyor musunuz?",
+      "answer": "Evet, hisseli tapular için de değerlendirme yapıyor ve teklif veriyoruz. Hisseli tapu satışlarında diğer hissedarların onayı veya şufa hakkından feragat etmeleri gerekebilir. Hukuk ekibimiz bu süreçte size tam destek sağlar."
+    },
+    {
+      "id": "5",
+      "category": "odemeler",
+      "question": "Tapu masrafları kime ait?",
+      "answer": "Tapu harcı yasal olarak alıcı ve satıcı arasında eşit bölünür (%2 alıcı, %2 satıcı). Ancak ArsaAl olarak biz, müşteri memnuniyeti için tüm tapu masraflarını kendimiz karşılıyoruz. Sizin herhangi bir masraf ödemeniz gerekmez."
+    },
+    {
+      "id": "6",
+      "category": "satis-sureci",
+      "question": "Satış işlemi için ofise gelmem gerekiyor mu?",
+      "answer": "Değerlendirme ve teklif aşaması tamamen online veya telefon üzerinden yapılır. Sadece tapu devri için tapu müdürlüğüne gitmeniz gerekir. İsterseniz vekaletname ile de işlem yapılabilir."
+    },
+    {
+      "id": "7",
+      "category": "satis-sureci",
+      "question": "Arsanın değerini nasıl belirliyorsunuz?",
+      "answer": "Arsanızın değerini belirlerken; konum, imar durumu, yüzölçümü, cephe uzunluğu, alt yapı durumu, bölgedeki emsal satışlar ve gelecek projeksiyonlar gibi birçok faktörü değerlendiriyoruz. Piyasa koşullarına göre en adil teklifi sunuyoruz."
+    },
+    {
+      "id": "8",
+      "category": "satis-sureci",
+      "question": "Hangi illerde arsa alımı yapıyorsunuz?",
+      "answer": "Türkiye'nin tüm 81 ilinde hizmet veriyoruz. Büyükşehirler, ilçe merkezleri veya kırsal bölgeler fark etmeksizin her bölgeden arsa değerlendirmesi yapabiliyoruz."
+    },
+    {
+      "id": "9",
+      "category": "yasal-islemler",
+      "question": "Miras kalan arsayı satabilir miyim?",
+      "answer": "Evet, miras kalan arsalar için de teklif veriyoruz. Ancak öncelikle veraset ve intikal işlemlerinin tamamlanmış olması ve tapu kaydının güncellenmesi gerekir. Bu süreçte hukuk ekibimiz size rehberlik eder."
+    },
+    {
+      "id": "10",
+      "category": "yasal-islemler",
+      "question": "Vekalet ile satış yapabilir miyim?",
+      "answer": "Evet, noter onaylı vekalet ile satış yapılabilir. Vekaletnamede açıkça gayrimenkul satış yetkisi bulunmalıdır. Gerekli vekalet örneğini size sağlayabiliriz."
+    },
+    {
+      "id": "11",
+      "category": "odemeler",
+      "question": "Değerleme ücreti alıyor musunuz?",
+      "answer": "Hayır, ön değerlendirme ve teklif sunma hizmetimiz tamamen ücretsizdir. Teklifimizi kabul etmezseniz hiçbir ücret ödemezsiniz."
+    },
+    {
+      "id": "12",
+      "category": "satis-sureci",
+      "question": "Teklifi kabul etmek zorunda mıyım?",
+      "answer": "Kesinlikle hayır. Teklifimiz herhangi bir bağlayıcılık içermez. Değerlendirme ve teklif tamamen ücretsiz olup, kabul etme kararı tamamen size aittir."
+    }
+  ],
+  "cta": {
+    "title": "Aklınıza takılan başka bir şey mi var?",
+    "description": "Süreçle ilgili tüm detayları konuşmak veya araziniz için anında nakit teklifi almak için bize ulaşın.",
+    "buttons": {
+      "primary": { "label": "Teklif Al", "href": "/arsa-sat" },
+      "secondary": { "label": "Bizi Arayın", "href": "tel:+905303444097" }
+    }
+  }
+}

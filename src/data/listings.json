@@ -1,0 +1,525 @@
+{
+  "categories": [
+    {
+      "id": "konut-imarli",
+      "label": "Konut İmarlı",
+      "color": "emerald"
+    },
+    {
+      "id": "tarla",
+      "label": "Tarla",
+      "color": "amber"
+    },
+    {
+      "id": "villa-imarli",
+      "label": "Villa İmarlı",
+      "color": "blue"
+    },
+    {
+      "id": "ticari-imarli",
+      "label": "Ticari İmarlı",
+      "color": "purple"
+    },
+    {
+      "id": "turizm-imarli",
+      "label": "Turizm İmarlı",
+      "color": "rose"
+    },
+    {
+      "id": "sanayi-imarli",
+      "label": "Sanayi İmarlı",
+      "color": "slate"
+    }
+  ],
+  "features": [
+    {
+      "id": "deniz-manzarali",
+      "label": "Deniz Manzaralı",
+      "icon": "water"
+    },
+    {
+      "id": "elektrik-su",
+      "label": "Elektrik & Su Mevcut",
+      "icon": "bolt"
+    },
+    {
+      "id": "yola-cepheli",
+      "label": "Yola Cepheli",
+      "icon": "road"
+    },
+    {
+      "id": "koy-merkezine-yakin",
+      "label": "Köy Merkezine Yakın",
+      "icon": "location_city"
+    },
+    {
+      "id": "havalimanina-yakin",
+      "label": "Havalimanına Yakın",
+      "icon": "flight"
+    },
+    {
+      "id": "otoban-baglantisi",
+      "label": "Otoban Bağlantısı",
+      "icon": "directions_car"
+    },
+    {
+      "id": "yatirimlik",
+      "label": "Yatırımlık Fırsat",
+      "icon": "trending_up"
+    },
+    {
+      "id": "hemen-insaat",
+      "label": "Hemen İnşaata Uygun",
+      "icon": "construction"
+    }
+  ],
+  "listings": [
+    {
+      "id": "silivri-balaban-001",
+      "slug": "silivri-balaban-konut-imarli-arsa",
+      "title": "Silivri / Balaban Mevkii",
+      "shortTitle": "Silivri Balaban Mevkii",
+      "category": "konut-imarli",
+      "city": "İstanbul",
+      "district": "Silivri",
+      "neighborhood": "Balaban",
+      "size": 450,
+      "adaParsel": "123/4",
+      "price": 3250000,
+      "pricePerM2": 7222,
+      "imarDurumu": "Konut İmarlı",
+      "gabroDurumu": "%30",
+      "features": [
+        "elektrik-su",
+        "yola-cepheli",
+        "hemen-insaat"
+      ],
+      "description": "Silivri Balaban mevkiinde, denize sadece 10 dakika mesafede bulunan bu eşsiz arsa, hem yatırım hem de yaşam alanı kurmak isteyenler için kaçırılmayacak bir fırsattır. %30 konut imarı bulunan parselimiz, elektrik, su ve yol sorunu olmayan, hemen inşaata başlanabilecek durumdadır.",
+      "highlights": [
+        "Elektrik & Su Mevcut",
+        "Kadastral Yol Cepheli",
+        "Deniz Manzaralı",
+        "Yatırıma Uygun"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80",
+        "https://images.unsplash.com/photo-1628624747186-a941c476b7ef?w=800&q=80",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80",
+      "photoCount": 5,
+      "location": {
+        "lat": 41.0731,
+        "lng": 28.2464
+      },
+      "isFeatured": true,
+      "isNew": false,
+      "createdAt": "2024-01-15",
+      "updatedAt": "2024-03-01"
+    },
+    {
+      "id": "urla-zeytinlik-002",
+      "slug": "urla-zeytinlik-arazisi",
+      "title": "Urla Zeytinlik Arazisi",
+      "shortTitle": "Urla Zeytinlik Arazisi",
+      "category": "tarla",
+      "city": "İzmir",
+      "district": "Urla",
+      "neighborhood": "Kekliktepe",
+      "size": 8500,
+      "adaParsel": "456/9",
+      "price": 8500000,
+      "pricePerM2": 1000,
+      "imarDurumu": "Tarım Arazisi",
+      "gabroDurumu": "Yok",
+      "features": [
+        "deniz-manzarali",
+        "yatirimlik"
+      ],
+      "description": "Urla Kekliktepe mevkiinde, doğa ile iç içe, denize sadece 10 dakika mesafede bulunan bu eşsiz arsa, hem yatırım hem de yaşam alanı kurmak isteyenler için kaçırılmayacak bir fırsattır.",
+      "highlights": [
+        "Deniz Manzaralı",
+        "Yatırıma Uygun",
+        "300+ Zeytin Ağacı",
+        "Temiz Hava"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80",
+        "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80",
+      "photoCount": 4,
+      "location": {
+        "lat": 38.3225,
+        "lng": 26.7656
+      },
+      "isFeatured": true,
+      "isNew": true,
+      "createdAt": "2024-02-20",
+      "updatedAt": "2024-03-05"
+    },
+    {
+      "id": "sile-deniz-003",
+      "slug": "sile-deniz-manzarali-villa-imari",
+      "title": "Şile Deniz Manzaralı",
+      "shortTitle": "Şile Deniz Manzaralı",
+      "category": "villa-imarli",
+      "city": "İstanbul",
+      "district": "Şile",
+      "neighborhood": "Ağva",
+      "size": 780,
+      "adaParsel": "789/2",
+      "price": 5750000,
+      "pricePerM2": 7372,
+      "imarDurumu": "Villa İmarlı",
+      "gabroDurumu": "%20",
+      "features": [
+        "deniz-manzarali",
+        "elektrik-su",
+        "hemen-insaat"
+      ],
+      "description": "Şile Ağva'da deniz manzaralı, villa imarlı muhteşem arsa. Doğa ile iç içe, huzurlu yaşam için ideal.",
+      "highlights": [
+        "Deniz Manzaralı",
+        "Villa İmarlı",
+        "Elektrik & Su Mevcut",
+        "Hemen İnşaata Uygun"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=800&q=80",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=800&q=80",
+      "photoCount": 3,
+      "location": {
+        "lat": 41.1769,
+        "lng": 29.6128
+      },
+      "isFeatured": true,
+      "isNew": false,
+      "createdAt": "2024-01-10",
+      "updatedAt": "2024-02-28"
+    },
+    {
+      "id": "sapanca-gol-004",
+      "slug": "sapanca-gol-yakini-arsa",
+      "title": "Sapanca Göl Yakını",
+      "shortTitle": "Sapanca Göl Yakını",
+      "category": "turizm-imarli",
+      "city": "Sakarya",
+      "district": "Sapanca",
+      "neighborhood": "Merkez",
+      "size": 1200,
+      "adaParsel": "234/7",
+      "price": 12000000,
+      "pricePerM2": 10000,
+      "imarDurumu": "Turizm İmarlı",
+      "gabroDurumu": "%40",
+      "features": [
+        "yatirimlik",
+        "otoban-baglantisi",
+        "hemen-insaat"
+      ],
+      "description": "Sapanca Gölü'ne yürüme mesafesinde, turizm imarlı yatırımlık arsa. Otel veya butik tesis için ideal.",
+      "highlights": [
+        "Göl Manzaralı",
+        "Turizm İmarlı",
+        "Yatırımlık",
+        "TEM Otoyoluna Yakın"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80",
+        "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800&q=80"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80",
+      "photoCount": 6,
+      "location": {
+        "lat": 40.6919,
+        "lng": 30.2706
+      },
+      "isFeatured": true,
+      "isNew": true,
+      "createdAt": "2024-03-01",
+      "updatedAt": "2024-03-05"
+    },
+    {
+      "id": "catalca-izzettin-005",
+      "slug": "catalca-izzettin-tarla",
+      "title": "Çatalca / İzzettin",
+      "shortTitle": "Çatalca İzzettin",
+      "category": "tarla",
+      "city": "İstanbul",
+      "district": "Çatalca",
+      "neighborhood": "İzzettin",
+      "size": 1200,
+      "adaParsel": "456/9",
+      "price": 2400000,
+      "pricePerM2": 2000,
+      "imarDurumu": "Tarla",
+      "gabroDurumu": "Yok",
+      "features": [
+        "elektrik-su",
+        "koy-merkezine-yakin"
+      ],
+      "description": "Çatalca İzzettin köyünde, köy merkezine yakın, elektrik ve su mevcut tarla.",
+      "highlights": [
+        "Elektrik ve Su Mevcut",
+        "Köy Merkezine Yakın",
+        "Düz Arazi",
+        "Yatırımlık"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1499540633125-484965b60031?w=800&q=80"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1499540633125-484965b60031?w=800&q=80",
+      "photoCount": 4,
+      "location": {
+        "lat": 41.1431,
+        "lng": 28.4614
+      },
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2024-02-15",
+      "updatedAt": "2024-02-28"
+    },
+    {
+      "id": "seferihisar-sigacik-006",
+      "slug": "seferihisar-sigacik-villa-imarli",
+      "title": "Seferihisar / Sığacık",
+      "shortTitle": "Seferihisar Sığacık",
+      "category": "villa-imarli",
+      "city": "İzmir",
+      "district": "Seferihisar",
+      "neighborhood": "Sığacık",
+      "size": 350,
+      "adaParsel": "881/2",
+      "price": 4500000,
+      "pricePerM2": 12857,
+      "imarDurumu": "Villa İmarlı",
+      "gabroDurumu": "%25",
+      "features": [
+        "deniz-manzarali",
+        "hemen-insaat"
+      ],
+      "description": "Sığacık'ta deniz manzaralı, villa imarlı arsa. Hemen inşaata uygun.",
+      "highlights": [
+        "Deniz Manzaralı",
+        "Hemen İnşaata Uygun",
+        "Sığacık Merkeze Yakın",
+        "Yatırımlık"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1594955263223-28f57278783d?w=800&q=80"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1594955263223-28f57278783d?w=800&q=80",
+      "photoCount": 5,
+      "location": {
+        "lat": 38.1953,
+        "lng": 26.7847
+      },
+      "isFeatured": false,
+      "isNew": true,
+      "createdAt": "2024-03-02",
+      "updatedAt": "2024-03-05"
+    },
+    {
+      "id": "golbasi-incek-007",
+      "slug": "golbasi-incek-tarla",
+      "title": "Gölbaşı / İncek",
+      "shortTitle": "Gölbaşı İncek",
+      "category": "tarla",
+      "city": "Ankara",
+      "district": "Gölbaşı",
+      "neighborhood": "İncek",
+      "size": 2500,
+      "adaParsel": "774/1",
+      "price": 5000000,
+      "pricePerM2": 2000,
+      "imarDurumu": "Tarla",
+      "gabroDurumu": "Yok",
+      "features": [
+        "yatirimlik",
+        "yola-cepheli"
+      ],
+      "description": "Gölbaşı İncek'te yatırımlık tarla. Kadastral yola cepheli.",
+      "highlights": [
+        "Yatırımlık Fırsat",
+        "Kadastral Yola Cepheli",
+        "Ankara Merkeze Yakın",
+        "Değer Artış Potansiyeli"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80",
+      "photoCount": 3,
+      "location": {
+        "lat": 39.7883,
+        "lng": 32.8039
+      },
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2024-01-20",
+      "updatedAt": "2024-02-15"
+    },
+    {
+      "id": "bodrum-yalikavak-008",
+      "slug": "bodrum-yalikavak-ticari-imarli",
+      "title": "Bodrum / Yalıkavak",
+      "shortTitle": "Bodrum Yalıkavak",
+      "category": "ticari-imarli",
+      "city": "Muğla",
+      "district": "Bodrum",
+      "neighborhood": "Yalıkavak",
+      "size": 600,
+      "adaParsel": "202/5",
+      "price": 15000000,
+      "pricePerM2": 25000,
+      "imarDurumu": "Ticari İmarlı",
+      "gabroDurumu": "%35",
+      "features": [
+        "deniz-manzarali",
+        "yatirimlik",
+        "hemen-insaat"
+      ],
+      "description": "Bodrum Yalıkavak'ta ticari imarlı, deniz manzaralı arsa. Turizm tesisi için ideal.",
+      "highlights": [
+        "Turizm Tesisi Alanı",
+        "Yüksek Prim Potansiyeli",
+        "Deniz Manzaralı",
+        "Marina Yakını"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?w=800&q=80"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?w=800&q=80",
+      "photoCount": 8,
+      "location": {
+        "lat": 37.1044,
+        "lng": 27.2933
+      },
+      "isFeatured": false,
+      "isNew": true,
+      "createdAt": "2024-03-03",
+      "updatedAt": "2024-03-05"
+    },
+    {
+      "id": "arnavutkoy-tasoluk-009",
+      "slug": "arnavutkoy-tasoluk-konut-imarli",
+      "title": "Arnavutköy / Taşoluk",
+      "shortTitle": "Arnavutköy Taşoluk",
+      "category": "konut-imarli",
+      "city": "İstanbul",
+      "district": "Arnavutköy",
+      "neighborhood": "Taşoluk",
+      "size": 300,
+      "adaParsel": "331/9",
+      "price": 2100000,
+      "pricePerM2": 7000,
+      "imarDurumu": "Konut İmarlı",
+      "gabroDurumu": "%30",
+      "features": [
+        "havalimanina-yakin",
+        "otoban-baglantisi"
+      ],
+      "description": "İstanbul Havalimanı'na çok yakın, konut imarlı yatırımlık arsa.",
+      "highlights": [
+        "Havalimanına Yakın",
+        "Kanal Projesi Cepheli",
+        "Konut İmarlı",
+        "Yatırımlık"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1504567961542-e24d9439a724?w=800&q=80"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1504567961542-e24d9439a724?w=800&q=80",
+      "photoCount": 4,
+      "location": {
+        "lat": 41.1847,
+        "lng": 28.7394
+      },
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2024-02-10",
+      "updatedAt": "2024-02-28"
+    }
+  ],
+  "filters": {
+    "cities": [
+      {
+        "value": "",
+        "label": "Tüm Şehirler"
+      },
+      {
+        "value": "istanbul",
+        "label": "İstanbul"
+      },
+      {
+        "value": "izmir",
+        "label": "İzmir"
+      },
+      {
+        "value": "ankara",
+        "label": "Ankara"
+      },
+      {
+        "value": "mugla",
+        "label": "Muğla"
+      },
+      {
+        "value": "sakarya",
+        "label": "Sakarya"
+      },
+      {
+        "value": "antalya",
+        "label": "Antalya"
+      },
+      {
+        "value": "bursa",
+        "label": "Bursa"
+      }
+    ],
+    "imarDurumu": [
+      {
+        "value": "",
+        "label": "Hepsi"
+      },
+      {
+        "value": "imarli",
+        "label": "İmarlı"
+      },
+      {
+        "value": "imarsiz",
+        "label": "İmarsız"
+      }
+    ],
+    "sizeRange": {
+      "min": 100,
+      "max": 10000,
+      "step": 100,
+      "unit": "m²"
+    },
+    "sortOptions": [
+      {
+        "value": "newest",
+        "label": "En Yeni"
+      },
+      {
+        "value": "price-asc",
+        "label": "Fiyat (Düşük-Yüksek)"
+      },
+      {
+        "value": "price-desc",
+        "label": "Fiyat (Yüksek-Düşük)"
+      },
+      {
+        "value": "size-asc",
+        "label": "Metrekare (Küçük-Büyük)"
+      },
+      {
+        "value": "size-desc",
+        "label": "Metrekare (Büyük-Küçük)"
+      }
+    ]
+  }
+}

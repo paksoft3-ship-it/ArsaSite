@@ -1,0 +1,70 @@
+{
+  "siteName": "ArsaAl",
+  "siteTitle": "ArsaAl - Türkiye'nin En Hızlı Arsa Alım Satım Platformu",
+  "siteDescription": "Arsanızı hızlı, güvenilir ve şeffaf bir şekilde nakite çevirin. Türkiye genelinde arsa alım satım hizmetleri. Ücretsiz değerlendirme, aynı gün teklif.",
+  "siteUrl": "https://arsaal.com",
+  "logo": {
+    "text": "ArsaAl",
+    "icon": "landscape"
+  },
+  "contact": {
+    "phone": "0530 344 40 97",
+    "phoneFormatted": "+90 530 344 40 97",
+    "phoneLink": "tel:+905303444097",
+    "whatsapp": "905303444097",
+    "whatsappLink": "https://wa.me/905303444097",
+    "email": "info@arsaal.com",
+    "emailLink": "mailto:info@arsaal.com",
+    "address": {
+      "full": "Maslak Mah. Büyükdere Cad. No:123, Plaza 4, Kat:5, Sarıyer/İstanbul",
+      "short": "Maslak, Sarıyer/İstanbul",
+      "district": "Maslak",
+      "city": "İstanbul",
+      "country": "Türkiye"
+    },
+    "workingHours": "Hafta içi 09:00 - 18:00"
+  },
+  "social": {
+    "facebook": "https://facebook.com/arsaal",
+    "instagram": "https://instagram.com/arsaal",
+    "twitter": "https://twitter.com/arsaal",
+    "linkedin": "https://linkedin.com/company/arsaal",
+    "youtube": "https://youtube.com/@arsaal"
+  },
+  "seo": {
+    "keywords": [
+      "arsa satış",
+      "arsa sat",
+      "arsa al",
+      "arsa alan yerler",
+      "hızlı arsa satışı",
+      "arsa değerlendirme",
+      "arsa fiyatı",
+      "arsa alım",
+      "arsa nakite çevir",
+      "arsa satmak istiyorum",
+      "arsami satmak istiyorum",
+      "arsa satın al",
+      "arazi satış",
+      "tarla satış",
+      "imarlı arsa",
+      "konut imarlı arsa",
+      "ticari imarlı arsa",
+      "villa imarlı arsa",
+      "turizm imarlı arsa"
+    ],
+    "ogImage": "/images/og-image.jpg",
+    "twitterHandle": "@arsaal"
+  },
+  "analytics": {
+    "googleAnalyticsId": "G-XXXXXXXXXX",
+    "googleAdsId": "AW-XXXXXXXXXX",
+    "googleAdsConversionLabel": "XXXXXXXXXX",
+    "facebookPixelId": "XXXXXXXXXX"
+  },
+  "legal": {
+    "companyName": "ArsaAl Gayrimenkul A.Ş.",
+    "taxNumber": "XXXXXXXXXX",
+    "registrationNumber": "XXXXXXXXXX"
+  }
+}

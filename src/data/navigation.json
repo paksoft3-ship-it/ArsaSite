@@ -1,0 +1,73 @@
+{
+  "mainNav": [
+    {
+      "id": "home",
+      "label": "Ana Sayfa",
+      "href": "/",
+      "icon": "home"
+    },
+    {
+      "id": "arsa-sat",
+      "label": "Arsa Sat",
+      "href": "/arsa-sat",
+      "icon": "sell",
+      "highlight": true
+    },
+    {
+      "id": "satilik-arsalar",
+      "label": "Satılık Arsalar",
+      "href": "/satilik-arsalar",
+      "icon": "landscape"
+    },
+    {
+      "id": "nasil-calisir",
+      "label": "Nasıl Çalışır?",
+      "href": "/nasil-calisir",
+      "icon": "help_outline"
+    },
+    {
+      "id": "hakkimizda",
+      "label": "Hakkımızda",
+      "href": "/hakkimizda",
+      "icon": "info"
+    },
+    {
+      "id": "blog",
+      "label": "Blog",
+      "href": "/blog",
+      "icon": "article"
+    },
+    {
+      "id": "iletisim",
+      "label": "İletişim",
+      "href": "/iletisim",
+      "icon": "mail"
+    }
+  ],
+  "footerNav": {
+    "quickLinks": [
+      { "label": "Ana Sayfa", "href": "/" },
+      { "label": "Arsa Sat", "href": "/arsa-sat" },
+      { "label": "Satılık Arsalar", "href": "/satilik-arsalar" },
+      { "label": "Nasıl Çalışır?", "href": "/nasil-calisir" },
+      { "label": "Hakkımızda", "href": "/hakkimizda" },
+      { "label": "Blog", "href": "/blog" }
+    ],
+    "legal": [
+      { "label": "KVKK Aydınlatma Metni", "href": "/kvkk" },
+      { "label": "Gizlilik Politikası", "href": "/gizlilik-politikasi" },
+      { "label": "Çerez Politikası", "href": "/cerez-politikasi" },
+      { "label": "Kullanım Koşulları", "href": "/kullanim-kosullari" }
+    ],
+    "support": [
+      { "label": "Sıkça Sorulan Sorular", "href": "/sss" },
+      { "label": "İletişim", "href": "/iletisim" },
+      { "label": "Yardım Merkezi", "href": "/yardim" }
+    ]
+  },
+  "ctaButton": {
+    "label": "Teklif Al",
+    "href": "/arsa-sat",
+    "icon": "arrow_forward"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "hero": {
+    "badge": "Aynı Gün Nakit Teklif",
+    "title": {
+      "line1": "Arsanızı Hızlıca",
+      "line2": "Satın",
+      "highlight": "Ücretsiz Ön Teklif",
+      "line3": "Alın"
+    },
+    "description": "Arsa, tarla veya araziniz için kısa bilgi paylaşın. Uzman ekibimiz değerlendirsin, aynı gün içinde size özel nakit teklifimizle dönüş sağlayalım.",
+    "features": [
+      { "icon": "check_circle", "text": "Ücretsiz ön değerlendirme" },
+      { "icon": "check_circle", "text": "Tapu sürecinde rehberlik" },
+      { "icon": "check_circle", "text": "Şeffaf teklif yaklaşımı" },
+      { "icon": "check_circle", "text": "Güvenli ve hızlı ödeme" }
+    ],
+    "cta": {
+      "primary": { "label": "Ücretsiz Teklif Al", "href": "/arsa-sat", "icon": "arrow_forward" },
+      "secondary": { "label": "WhatsApp'tan Yaz", "href": "https://wa.me/905303444097", "icon": "chat" }
+    },
+    "stats": [
+      { "value": "500+", "label": "Mutlu Müşteri" },
+      { "value": "1000+", "label": "Değerlendirilen Arsa" },
+      { "value": "24 Saat", "label": "Teklif Süresi" }
+    ]
+  },
+  "quickForm": {
+    "title": "Hızlı Teklif Formu",
+    "description": "Formu doldurun, arsanız için en iyi teklifi hemen alın.",
+    "fields": [
+      { "name": "name", "label": "Ad Soyad", "type": "text", "placeholder": "Adınız Soyadınız", "required": true },
+      { "name": "phone", "label": "Telefon", "type": "tel", "placeholder": "05XX XXX XX XX", "required": true },
+      { "name": "city", "label": "Şehir", "type": "select", "placeholder": "Şehir Seçin", "required": true },
+      { "name": "district", "label": "İlçe", "type": "select", "placeholder": "İlçe Seçin", "required": true },
+      { "name": "landType", "label": "Arsa/Parsel (Opsiyonel)", "type": "text", "placeholder": "Ada/Parsel No", "required": false },
+      { "name": "size", "label": "Büyüklük (m²)", "type": "number", "placeholder": "Örn: 500", "required": false }
+    ],
+    "submitButton": { "label": "Teklif İste →", "loadingLabel": "Gönderiliyor..." },
+    "privacyNote": "Kişisel verileriniz KVKK kapsamında korunmaktadır.",
+    "phoneNote": "veya bizi arayın: 0530 344 40 97"
+  },
+  "featuredListings": {
+    "title": "Fırsat Niteliğindeki Arsalar",
+    "description": "Yatırımlık veya projeye uygun, tapusu hazır seçili ilanlarımız.",
+    "viewAllLink": { "label": "Tüm İlanları Gör →", "href": "/satilik-arsalar" }
+  },
+  "sellCta": {
+    "title": "Arsanızı satmak mı istiyorsunuz?",
+    "description": "Fırsatlarla uğraşmayın. Bize satın, paranız hemen hesabınıza geçsin.",
+    "button": { "label": "Hemen Teklif Alın →", "href": "/arsa-sat" }
+  },
+  "whyUs": {
+    "title": "Neden Bizi Tercih Etmelisiniz?",
+    "description": "Süreci sizin için basitleştiriyor, güvenli ve hızlı ticaret sunuyoruz.",
+    "features": [
+      {
+        "icon": "speed",
+        "title": "Hızlı Değerleme",
+        "description": "Uzman ekibimizle piyasa analizi yaparak arsanızın gerçek değerini saatler içinde belirleriz."
+      },
+      {
+        "icon": "payments",
+        "title": "Nakit Ödeme",
+        "description": "Tapu devri ile eş zamanlı olarak ödemenizi banka yoluyla güvenli bir şekilde gerçekleştirirsiniz."
+      },
+      {
+        "icon": "gavel",
+        "title": "Hukuki Destek",
+        "description": "Veraset, intikal veya hisseli tapu sorunlarında hukuk departmanımız size rehberlik eder."
+      },
+      {
+        "icon": "money_off",
+        "title": "Komisyon Yok",
+        "description": "Doğrudan satıcı olduğumuz için emlakçı komisyonu veya hizmet bedeli ödemezsiniz."
+      },
+      {
+        "icon": "public",
+        "title": "Türkiye Geneli",
+        "description": "Sadece büyük şehirlerde değil, Türkiye'nin her yerindeki arazileriniz için teklif veriyoruz."
+      },
+      {
+        "icon": "task_alt",
+        "title": "Kolay İşlem",
+        "description": "Siz sadece imzaya gelirsiniz, tapu harcı ve döner sermaye masraflarını biz karşılarız."
+      }
+    ]
+  },
+  "process": {
+    "title": "Nasıl Çalışır?",
+    "description": "4 basit adımda arsanızı nakite çevirin.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Bilgi Verin",
+        "description": "Online formumuz veya telefon ile arsanızın temel bilgilerini paylaşın.",
+        "icon": "edit_note",
+        "duration": "5 dakika"
+      },
+      {
+        "number": 2,
+        "title": "Değerlendirme",
+        "description": "Uzman ekibimiz arsanızı analiz eder ve piyasa değerini belirler.",
+        "icon": "analytics",
+        "duration": "24 saat"
+      },
+      {
+        "number": 3,
+        "title": "Teklif Alın",
+        "description": "Size en uygun nakit teklifimizi sunarız. Kabul kararı tamamen sizin.",
+        "icon": "local_offer",
+        "duration": "Aynı gün"
+      },
+      {
+        "number": 4,
+        "title": "Ödeme Alın",
+        "description": "Tapu devri ile birlikte ödemeniz anında hesabınıza aktarılır.",
+        "icon": "account_balance",
+        "duration": "2-3 iş günü"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Müşterilerimiz Ne Diyor?",
+    "description": "Binlerce memnun müşterimizden bazıları.",
+    "items": [
+      {
+        "id": 1,
+        "name": "Ahmet Yılmaz",
+        "location": "İstanbul",
+        "rating": 5,
+        "text": "Silivri'deki arsam için çok hızlı teklif aldım. 3 gün içinde her şey tamamlandı. Kesinlikle tavsiye ediyorum.",
+        "date": "2024-01-15"
+      },
+      {
+        "id": 2,
+        "name": "Fatma Kaya",
+        "location": "İzmir",
+        "rating": 5,
+        "text": "Miras kalan arsayı satmak çok zordu sanıyordum. ArsaAl ekibi her konuda yardımcı oldu.",
+        "date": "2024-02-20"
+      },
+      {
+        "id": 3,
+        "name": "Mehmet Demir",
+        "location": "Ankara",
+        "rating": 5,
+        "text": "Profesyonel yaklaşımları ve şeffaf süreçleri ile güven veren bir firma. Teşekkürler ArsaAl.",
+        "date": "2024-03-10"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "viewAllLink": { "label": "Tüm soruları gör →", "href": "/sss" },
+    "items": [
+      {
+        "question": "Teklif süreci ne kadar sürüyor?",
+        "answer": "Arsanızın bilgilerini aldıktan sonra genellikle 24 saat içinde size nakit teklifimizi iletiyoruz."
+      },
+      {
+        "question": "Hisseli tapular için teklif veriyor musunuz?",
+        "answer": "Evet, hisseli tapular için de değerlendirme yapıyor ve teklif veriyoruz. Hukuk ekibimiz gerekli süreçlerde size destek sağlar."
+      },
+      {
+        "question": "Ödeme güvenliği nasıl sağlanıyor?",
+        "answer": "Ödemeler tapu devri sırasında banka transferi ile yapılmaktadır. Tüm işlemler yasal ve güvenli şekilde gerçekleştirilir."
+      },
+      {
+        "question": "Değerleme ücreti alıyor musunuz?",
+        "answer": "Hayır, ön değerlendirme tamamen ücretsizdir. Teklifi kabul etmezseniz herhangi bir ücret ödemeniz gerekmez."
+      },
+      {
+        "question": "Hangi illerde hizmet veriyorsunuz?",
+        "answer": "Türkiye'nin 81 ilinde hizmet veriyoruz. Şehir merkezi veya kırsal bölge fark etmeksizin tüm arsalarınız için teklif alabiliriz."
+      }
+    ]
+  },
+  "contactCta": {
+    "title": "Hemen İletişime Geçin",
+    "description": "Sorularınız mı var? Ekibimiz haftanın 7 günü hizmetinizde.",
+    "buttons": {
+      "phone": { "label": "0530 344 40 97", "href": "tel:+905303444097", "icon": "phone" },
+      "email": { "label": "E-posta Gönder", "href": "mailto:info@arsaal.com", "icon": "mail" }
+    }
+  }
+}
