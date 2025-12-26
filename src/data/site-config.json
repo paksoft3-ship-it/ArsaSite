@@ -1,10 +1,10 @@
 {
-  "siteName": "ArsaAl",
-  "siteTitle": "ArsaAl - Türkiye'nin En Hızlı Arsa Alım Satım Platformu",
+  "siteName": "ArsaSat",
+  "siteTitle": "ArsaSat - Türkiye'nin En Hızlı Arsa Alım Satım Platformu",
   "siteDescription": "Arsanızı hızlı, güvenilir ve şeffaf bir şekilde nakite çevirin. Türkiye genelinde arsa alım satım hizmetleri. Ücretsiz değerlendirme, aynı gün teklif.",
-  "siteUrl": "https://arsaal.com",
+  "siteUrl": "https://arsasat.com",
   "logo": {
-    "text": "ArsaAl",
+    "text": "Arsa Sat",
     "icon": "landscape"
   },
   "contact": {

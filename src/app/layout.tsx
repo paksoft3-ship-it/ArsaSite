@@ -129,7 +129,7 @@ export default function RootLayout({
           />
         )}
       </head>
-      <body className="flex flex-col min-h-screen font-display">
+      <body className="flex flex-col min-h-screen font-display pb-20 sm:pb-0">
         <div className="flex min-h-screen flex-col">
           <Header />
           <main className="flex-1">{children}</main>
