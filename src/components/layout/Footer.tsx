@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import navigation from '@/data/navigation.json';
 import siteConfig from '@/data/site-config.json';
 import Icon from '@/components/ui/Icon';
@@ -14,12 +15,14 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-2 mb-2">
-              <div className="text-primary">
-                <Icon name={siteConfig.logo.icon} className="!text-[28px]" />
+              <div className="relative h-10 w-[140px] sm:h-14 sm:w-[190px]">
+                <Image
+                  src="/images/logo.png"
+                  alt={siteConfig.logo.text}
+                  fill
+                  className="object-contain object-left"
+                />
               </div>
-              <span className="text-xl font-black tracking-tight text-dark-charcoal">
-                {siteConfig.logo.text}
-              </span>
             </Link>
             <p className="text-secondary-text text-sm leading-relaxed">
               {siteConfig.siteName}, arsa sahiplerine hızlı, güvenilir ve şeffaf nakit alım

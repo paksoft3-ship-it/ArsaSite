@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import navigation from '@/data/navigation.json';
 import siteConfig from '@/data/site-config.json';
@@ -45,12 +46,15 @@ export default function Header() {
         <div className="flex h-16 sm:h-20 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="text-primary transition-transform group-hover:scale-110">
-              <Icon name={siteConfig.logo.icon} className="!text-[32px]" />
+            <div className="relative h-10 w-[140px] sm:h-14 sm:w-[190px] transition-transform group-hover:scale-105">
+              <Image
+                src="/images/logo.png"
+                alt={siteConfig.logo.text}
+                fill
+                className="object-contain object-left"
+                priority
+              />
             </div>
-            <span className="text-xl sm:text-2xl font-black tracking-tight text-dark-charcoal">
-              {siteConfig.logo.text}
-            </span>
           </Link>
 
           {/* Desktop Navigation */}
