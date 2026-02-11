@@ -46,7 +46,7 @@ export default function FloatingActionButtons() {
                 </span>
                 <a
                     href={siteConfig.contact.phoneLink}
-                    className="flex h-14 w-full sm:w-14 sm:h-14 items-center justify-center rounded-none sm:rounded-full bg-blue-600 text-white shadow-none sm:shadow-lg sm:shadow-blue-900/30 hover:bg-blue-700 sm:hover:scale-110 sm:hover:shadow-xl transition-all duration-300"
+                    className="flex h-14 w-full sm:w-14 sm:h-14 items-center justify-center rounded-none sm:rounded-full bg-primary text-white shadow-none sm:shadow-lg sm:shadow-primary/30 hover:bg-primary-dark sm:hover:scale-110 sm:hover:shadow-xl transition-all duration-300"
                     aria-label="Telefon ile Ara"
                 >
                     <svg
@@ -72,7 +72,7 @@ export default function FloatingActionButtons() {
                     href={`${siteConfig.contact.whatsappLink}?text=${whatsappMessage}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex h-14 w-full sm:w-14 sm:h-14 items-center justify-center rounded-none sm:rounded-full bg-[#25D366] text-white shadow-none sm:shadow-lg sm:shadow-green-900/30 hover:bg-[#20bd5a] sm:hover:scale-110 sm:hover:shadow-xl transition-all duration-300 whatsapp-btn"
+                    className="flex h-14 w-full sm:w-14 sm:h-14 items-center justify-center rounded-none sm:rounded-full btn-whatsapp shadow-none sm:shadow-lg sm:shadow-green-900/30 sm:hover:scale-110 sm:hover:shadow-xl transition-all duration-300"
                     aria-label="WhatsApp ile İletişime Geçin"
                 >
                     <svg
@@ -98,8 +98,8 @@ export default function FloatingActionButtons() {
                     AI Asistan
                 </span>
                 <button
-                    onClick={() => setIsChatOpen(!isChatOpen)} // Placeholder logic
-                    className="flex h-14 w-full sm:w-14 sm:h-14 items-center justify-center rounded-none sm:rounded-full bg-indigo-600 text-white shadow-none sm:shadow-lg sm:shadow-indigo-900/30 hover:bg-indigo-700 sm:hover:scale-110 sm:hover:shadow-xl transition-all duration-300"
+                    onClick={() => setIsChatOpen(!isChatOpen)}
+                    className="flex h-14 w-full sm:w-14 sm:h-14 items-center justify-center rounded-none sm:rounded-full bg-accent text-white shadow-none sm:shadow-lg sm:shadow-accent/30 hover:bg-accent-dark sm:hover:scale-110 sm:hover:shadow-xl transition-all duration-300"
                     aria-label="Chat Bot"
                 >
                     <Icon name="smart_toy" className="!text-[20px] sm:!text-[24px]" />

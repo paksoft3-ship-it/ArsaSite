@@ -9,45 +9,119 @@
     },
     "description": "Arsa, tarla veya araziniz için kısa bilgi paylaşın. Uzman ekibimiz değerlendirsin, aynı gün içinde size özel nakit teklifimizle dönüş sağlayalım.",
     "features": [
-      { "icon": "check_circle", "text": "Ücretsiz ön değerlendirme" },
-      { "icon": "check_circle", "text": "Tapu sürecinde rehberlik" },
-      { "icon": "check_circle", "text": "Şeffaf teklif yaklaşımı" },
-      { "icon": "check_circle", "text": "Güvenli ve hızlı ödeme" }
+      {
+        "icon": "check_circle",
+        "text": "Ücretsiz ön değerlendirme"
+      },
+      {
+        "icon": "check_circle",
+        "text": "Tapu sürecinde rehberlik"
+      },
+      {
+        "icon": "check_circle",
+        "text": "Şeffaf teklif yaklaşımı"
+      },
+      {
+        "icon": "check_circle",
+        "text": "Güvenli ve hızlı ödeme"
+      }
     ],
     "cta": {
-      "primary": { "label": "Ücretsiz Teklif Al", "href": "/arsa-sat", "icon": "arrow_forward" },
-      "secondary": { "label": "WhatsApp'tan Yaz", "href": "https://wa.me/905303444097", "icon": "chat" }
+      "primary": {
+        "label": "Ücretsiz Teklif Al",
+        "href": "/arsa-sat",
+        "icon": "arrow_forward"
+      },
+      "secondary": {
+        "label": "WhatsApp'tan Yaz",
+        "href": "https://wa.me/905345809315",
+        "icon": "chat"
+      }
     },
     "stats": [
-      { "value": "500+", "label": "Mutlu Müşteri" },
-      { "value": "1000+", "label": "Değerlendirilen Arsa" },
-      { "value": "24 Saat", "label": "Teklif Süresi" }
+      {
+        "value": "500+",
+        "label": "Mutlu Müşteri"
+      },
+      {
+        "value": "1000+",
+        "label": "Değerlendirilen Arsa"
+      },
+      {
+        "value": "24 Saat",
+        "label": "Teklif Süresi"
+      }
     ]
   },
   "quickForm": {
     "title": "Hızlı Teklif Formu",
     "description": "Formu doldurun, arsanız için en iyi teklifi hemen alın.",
     "fields": [
-      { "name": "name", "label": "Ad Soyad", "type": "text", "placeholder": "Adınız Soyadınız", "required": true },
-      { "name": "phone", "label": "Telefon", "type": "tel", "placeholder": "05XX XXX XX XX", "required": true },
-      { "name": "city", "label": "Şehir", "type": "select", "placeholder": "Şehir Seçin", "required": true },
-      { "name": "district", "label": "İlçe", "type": "select", "placeholder": "İlçe Seçin", "required": true },
-      { "name": "landType", "label": "Arsa/Parsel (Opsiyonel)", "type": "text", "placeholder": "Ada/Parsel No", "required": false },
-      { "name": "size", "label": "Büyüklük (m²)", "type": "number", "placeholder": "Örn: 500", "required": false }
+      {
+        "name": "name",
+        "label": "Ad Soyad",
+        "type": "text",
+        "placeholder": "Adınız Soyadınız",
+        "required": true
+      },
+      {
+        "name": "phone",
+        "label": "Telefon",
+        "type": "tel",
+        "placeholder": "05XX XXX XX XX",
+        "required": true
+      },
+      {
+        "name": "city",
+        "label": "Şehir",
+        "type": "select",
+        "placeholder": "Şehir Seçin",
+        "required": true
+      },
+      {
+        "name": "district",
+        "label": "İlçe",
+        "type": "select",
+        "placeholder": "İlçe Seçin",
+        "required": true
+      },
+      {
+        "name": "landType",
+        "label": "Arsa/Parsel (Opsiyonel)",
+        "type": "text",
+        "placeholder": "Ada/Parsel No",
+        "required": false
+      },
+      {
+        "name": "size",
+        "label": "Büyüklük (m²)",
+        "type": "number",
+        "placeholder": "Örn: 500",
+        "required": false
+      }
     ],
-    "submitButton": { "label": "Teklif İste →", "loadingLabel": "Gönderiliyor..." },
+    "submitButton": {
+      "label": "Teklif İste →",
+      "loadingLabel": "Gönderiliyor..."
+    },
     "privacyNote": "Kişisel verileriniz KVKK kapsamında korunmaktadır.",
-    "phoneNote": "veya bizi arayın: 0530 344 40 97"
+    "phoneNote": "veya bizi arayın: 0534 580 93 15"
   },
   "featuredListings": {
     "title": "Fırsat Niteliğindeki Arsalar",
     "description": "Yatırımlık veya projeye uygun, tapusu hazır seçili ilanlarımız.",
-    "viewAllLink": { "label": "Tüm İlanları Gör →", "href": "/satilik-arsalar" }
+    "viewAllLink": {
+      "label": "Tüm İlanları Gör →",
+      "href": "/satilik-arsalar"
+    }
   },
   "sellCta": {
     "title": "Arsanızı satmak mı istiyorsunuz?",
     "description": "Fırsatlarla uğraşmayın. Bize satın, paranız hemen hesabınıza geçsin.",
-    "button": { "label": "Hemen Teklif Alın →", "href": "/arsa-sat" }
+    "button": {
+      "label": "Hemen Teklif Alın →",
+      "href": "/arsa-sat"
+    }
   },
   "whyUs": {
     "title": "Neden Bizi Tercih Etmelisiniz?",
@@ -151,7 +225,10 @@
   },
   "faq": {
     "title": "Sıkça Sorulan Sorular",
-    "viewAllLink": { "label": "Tüm soruları gör →", "href": "/sss" },
+    "viewAllLink": {
+      "label": "Tüm soruları gör →",
+      "href": "/sss"
+    },
     "items": [
       {
         "question": "Teklif süreci ne kadar sürüyor?",
@@ -179,8 +256,16 @@
     "title": "Hemen İletişime Geçin",
     "description": "Sorularınız mı var? Ekibimiz haftanın 7 günü hizmetinizde.",
     "buttons": {
-      "phone": { "label": "0530 344 40 97", "href": "tel:+905303444097", "icon": "phone" },
-      "email": { "label": "E-posta Gönder", "href": "mailto:info@arsaal.com", "icon": "mail" }
+      "phone": {
+        "label": "0534 580 93 15",
+        "href": "tel:+905345809315",
+        "icon": "phone"
+      },
+      "email": {
+        "label": "E-posta Gönder",
+        "href": "mailto:info@arsaal.com",
+        "icon": "mail"
+      }
     }
   }
 }

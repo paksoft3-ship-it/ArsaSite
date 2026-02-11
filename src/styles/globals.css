@@ -3,16 +3,47 @@
 @tailwind utilities;
 
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
 /* Base Styles */
 @layer base {
   html {
     scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   body {
-    @apply bg-background-light text-dark-charcoal font-display antialiased;
+    @apply bg-background-light text-dark-charcoal font-sans antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold tracking-tight text-dark-charcoal;
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl lg:text-6xl mb-6;
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl mb-4;
+  }
+
+  h3 {
+    @apply text-2xl sm:text-3xl mb-3;
+  }
+
+  h4 {
+    @apply text-xl sm:text-2xl mb-2;
+  }
+
+  p {
+    @apply leading-relaxed text-secondary-text;
   }
 
   /* Custom scrollbar */
@@ -26,16 +57,12 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    @apply bg-gray-300 rounded;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    @apply bg-gray-400;
+    @apply bg-gray-300 rounded-full hover:bg-gray-400;
   }
 
   /* Selection */
   ::selection {
-    @apply bg-primary/30 text-dark-charcoal;
+    @apply bg-primary/20 text-primary-dark;
   }
 }
 
@@ -44,31 +71,31 @@
 
   /* Button base styles */
   .btn {
-    @apply inline-flex items-center justify-center font-bold rounded-xl transition-all duration-200;
+    @apply inline-flex items-center justify-center font-bold rounded-xl transition-all duration-200 transform;
     @apply focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2;
     @apply disabled:opacity-50 disabled:cursor-not-allowed;
   }
 
   .btn-primary {
-    @apply btn bg-primary text-dark-charcoal hover:bg-primary-dark shadow-sm;
+    @apply btn bg-primary text-dark-charcoal hover:brightness-95 shadow-sm hover:shadow-md;
     @apply active:scale-[0.98];
   }
 
   .btn-secondary {
-    @apply btn bg-dark-charcoal text-white hover:bg-dark-charcoal/90;
+    @apply btn bg-white text-dark-charcoal border border-gray-200 hover:bg-gray-50 hover:border-gray-300 shadow-sm;
     @apply active:scale-[0.98];
   }
 
   .btn-outline {
-    @apply btn border-2 border-primary text-primary hover:bg-primary hover:text-dark-charcoal;
+    @apply btn border-2 border-primary text-primary hover:bg-primary-50;
   }
 
   .btn-ghost {
-    @apply btn text-dark-charcoal hover:bg-gray-100;
+    @apply btn text-secondary-text hover:text-primary hover:bg-primary-50;
   }
 
   .btn-whatsapp {
-    @apply btn bg-[#25D366] text-white hover:bg-[#20bd5a];
+    @apply btn bg-[#25D366] text-white hover:bg-[#20bd5a] shadow-sm hover:shadow-md;
   }
 
   /* Button sizes */
@@ -149,7 +176,7 @@
   }
 
   .badge-new {
-    @apply badge bg-emerald-100 text-emerald-700;
+    @apply badge bg-primary/10 text-primary-dark;
   }
 
   .badge-featured {

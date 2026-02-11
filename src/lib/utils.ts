@@ -23,7 +23,7 @@ export function formatArea(area: number): string {
 
 // Format phone number for display
 export function formatPhoneDisplay(phone: string): string {
-  // Assuming format: 5303444097
+  // Assuming format: 5345809315
   const cleaned = phone.replace(/\D/g, '');
   if (cleaned.length === 10) {
     return `0${cleaned.slice(0, 3)} ${cleaned.slice(3, 6)} ${cleaned.slice(6, 8)} ${cleaned.slice(8)}`;
@@ -88,7 +88,7 @@ export function generateSlug(text: string): string {
   };
 
   let slug = text.toLowerCase();
-  
+
   Object.keys(turkishChars).forEach((char) => {
     slug = slug.replace(new RegExp(char, 'g'), turkishChars[char].toLowerCase());
   });

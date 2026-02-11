@@ -41,9 +41,10 @@ export default function ListingsFilter({ categories }: ListingsFilterProps) {
 
   const getCategoryColor = (color: string, isActive: boolean) => {
     if (!isActive) return 'bg-gray-100 text-gray-600 hover:bg-gray-200';
-    
+
     const colors: Record<string, string> = {
-      emerald: 'bg-emerald-100 text-emerald-700 ring-2 ring-emerald-500',
+      emerald: 'bg-primary/10 text-primary-dark ring-2 ring-primary/20', // Mapped to primary
+      cyan: 'bg-accent/10 text-accent-dark ring-2 ring-accent/20',
       amber: 'bg-amber-100 text-amber-700 ring-2 ring-amber-500',
       blue: 'bg-blue-100 text-blue-700 ring-2 ring-blue-500',
       purple: 'bg-purple-100 text-purple-700 ring-2 ring-purple-500',

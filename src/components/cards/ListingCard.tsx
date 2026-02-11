@@ -17,7 +17,7 @@ export default function ListingCard({ listing }: ListingCardProps) {
 
   const getCategoryColor = (catId: string) => {
     switch (catId) {
-      case 'konut-imarli': return 'bg-dark-charcoal text-white';
+      case 'konut-imarli': return 'bg-primary text-dark-charcoal';
       case 'tarla': return 'bg-primary text-dark-charcoal';
       case 'villa-imarli': return 'bg-primary text-dark-charcoal';
       case 'ticari-imarli': return 'bg-rose-500 text-white';

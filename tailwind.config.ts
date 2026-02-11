@@ -11,23 +11,33 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#13ecda',
-          dark: '#0fbfb0',
-          light: '#4af5e7',
+          DEFAULT: '#13ecda', // The bright "Turkuaz" user requested
+          light: '#67e8f9',   // Cyan 300 (Avoid Teal/Green)
+          dark: '#0e7490',    // Cyan 700 - Readable for text
+          50: '#ecfeff',
+          100: '#cffafe',
+        },
+        accent: {
+          DEFAULT: '#06b6d4', // Cyan 500
+          glow: '#22d3ee',    // Cyan 400
+          light: '#67e8f9',
+          dark: '#0891b2',
         },
         background: {
-          light: '#f8fcfb',
-          dark: '#102220',
+          light: '#ffffff',
+          dark: '#0f172a',    // Slate 900
+          muted: '#f1f5f9',   // Slate 100
         },
-        'dark-charcoal': '#0d1b1a',
-        'secondary-text': '#4c9a93',
+        'dark-charcoal': '#1e293b', // Slate 800 - softer than pure black
+        'secondary-text': '#64748b', // Slate 500
         surface: {
           light: '#ffffff',
-          dark: '#152826',
+          dark: '#1e293b',
         }
       },
       fontFamily: {
-        display: ['Inter', 'system-ui', 'sans-serif'],
+        display: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+        sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
       },
       borderRadius: {
         DEFAULT: '0.5rem',
@@ -81,9 +91,9 @@ const config: Config = {
             maxWidth: 'none',
             color: '#0d1b1a',
             a: {
-              color: '#13ecda',
+              color: '#0e7490', // primary.dark
               '&:hover': {
-                color: '#0fbfb0',
+                color: '#0891b2', // accent.dark
               },
             },
           },

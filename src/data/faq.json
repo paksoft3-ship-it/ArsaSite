@@ -3,10 +3,26 @@
   "pageDescription": "Arazinizi satma süreci, ödemeler, yasal prosedürler ve tapu işlemleri hakkında merak ettiğiniz tüm detayları sizin için derledik.",
   "searchPlaceholder": "Sorunuzu arayın... (Örn: Ödeme süreci, Tapu masrafları)",
   "categories": [
-    { "id": "all", "label": "Tümü", "icon": "apps" },
-    { "id": "satis-sureci", "label": "Satış Süreci", "icon": "sell" },
-    { "id": "odemeler", "label": "Ödemeler", "icon": "payments" },
-    { "id": "yasal-islemler", "label": "Yasal İşlemler", "icon": "gavel" }
+    {
+      "id": "all",
+      "label": "Tümü",
+      "icon": "apps"
+    },
+    {
+      "id": "satis-sureci",
+      "label": "Satış Süreci",
+      "icon": "sell"
+    },
+    {
+      "id": "odemeler",
+      "label": "Ödemeler",
+      "icon": "payments"
+    },
+    {
+      "id": "yasal-islemler",
+      "label": "Yasal İşlemler",
+      "icon": "gavel"
+    }
   ],
   "questions": [
     {
@@ -86,8 +102,14 @@
     "title": "Aklınıza takılan başka bir şey mi var?",
     "description": "Süreçle ilgili tüm detayları konuşmak veya araziniz için anında nakit teklifi almak için bize ulaşın.",
     "buttons": {
-      "primary": { "label": "Teklif Al", "href": "/arsa-sat" },
-      "secondary": { "label": "Bizi Arayın", "href": "tel:+905303444097" }
+      "primary": {
+        "label": "Teklif Al",
+        "href": "/arsa-sat"
+      },
+      "secondary": {
+        "label": "Bizi Arayın",
+        "href": "tel:+905345809315"
+      }
     }
   }
 }
